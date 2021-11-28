@@ -4,3 +4,8 @@ header,
 footer {
   padding: 2em;
 }
+
+header { background: #41D3BD; }
+.main-content { background: #DE6449;}
+.sidebar { background: #407899;}
+footer { background: #694D75;}
