@@ -3,9 +3,27 @@ header,
 .sidebar,
 footer {
   padding: 2em;
+  color: #fff;
 }
 
 header { background: #41D3BD; }
 .main-content { background: #DE6449;}
 .sidebar { background: #407899;}
 footer { background: #694D75;}
+
+body {
+  display: grid;
+  grid-template-columns: 1.5em minmax(400px, 650px) minmax(200px, 350px) 1.5em;
+}
+
+header,footer {
+  grid-column: 1 / 5;
+}
+
+.main-content {
+  grid-column: 2/3;
+}
+
+.sidebar {
+  grid-column: 3 /4;
+}
